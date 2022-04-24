@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.unity.ide.rider": "3.0.14",
     "com.unity.ide.visualstudio": "2.0.15",
     "com.unity.render-pipelines.universal": "12.1.6",
     "com.unity.test-framework": "1.1.31",
@@ -31,19 +32,12 @@
   },
   "scopedRegistries": [
     {
-      "name": "icd",
+      "name": "ICD Agency",
       "url": "https://npm.icd.agency",
       "scopes": [
         "com.icd",
         "com.3rd-party",
         "com.icd.designtools"
-      ]
-    },
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.iam1337.extosc"
       ]
     }
   ]

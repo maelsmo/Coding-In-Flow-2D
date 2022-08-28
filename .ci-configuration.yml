@@ -1,0 +1,12 @@
+include:
+    -   project: 'internal/ci-templates'
+        ref: 'unity'
+        file:
+            - ci-template.yml
+            
+variables:
+    UNITY_PROJECT_DIRECTORY: "${CI_PROJECT_DIR}"  # Путь до корня Unity-проекта (обычно совпадает с корнем git-проекта).
+    DEFAULT_TARGET_PLATFORM: 'Windows x86_64'  
+    # Платформа для сборки по молчанию. Один из вариантов: 'Windows x86', 'Windows x86_64', 'Linux 64', 'Mac OS', 'WebGL', 'iOS', 'Android'
+    
+    BUILD_NAME: "${CI_PROJECT_NAME}"
